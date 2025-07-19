@@ -1,0 +1,25 @@
+{
+  "name": "react-tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick711c/namaste-react.git"
+  },
+  "author": "saikat chattaraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rick711c/namaste-react/issues"
+  },
+  "homepage": "https://github.com/rick711c/namaste-react#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react-dom": "^19.1.0"
+  }
+}
