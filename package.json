@@ -1,7 +1,6 @@
 {
   "name": "react-tut",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -17,6 +16,8 @@
   "homepage": "https://github.com/rick711c/namaste-react#readme",
   "description": "",
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
     "parcel": "^2.15.4"
   },
   "dependencies": {
