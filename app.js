@@ -13,15 +13,23 @@ const elm2 = (
   </div>
 );
 
-function FuntionalComponent2() {
+function FuntionalComponent2(name, age) {
   return (
     <div>
       <h1>hello, this ia a valid funtional component</h1>
     </div>
   );
 }
-const Elm3 = FuntionalComponent2();
-const Fncomponent1 = () => {
-  return <div>this is q a functional component</div>;
+
+const el3 = React.createElement("h1", {}, "saikat");
+console.log(el3);
+const Fncomponent1 = (name, age) => {
+  console.log(name, age);
+
+  return (
+    <div>
+      this is a functional component 2 FuntionalComponent2("saikat2",12)
+    </div>
+  );
 };
-root.render(FuntionalComponent2());
+root.render(<Fncomponent1 name="saikat" age="22" />);
